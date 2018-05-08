@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Use font-face to ensure that fonts will be displayed correctly. */
+@font-face {
+  	font-family: Ebrima;
+  	src: url(fonts/ebrima.ttf);
+}
+
+@font-face {
+ 	font-family: Rondalo;
+ 	src: url(fonts/rondalo.ttf);
+}
+
+/* CSS classes which are used for the website.*/
+.warning-banner {
+	background-color:#af1a17;
+	margin:auto;
+	width:100%;
+	height:auto;
+}
+
+.warning-banner img {
+  	background-color:none;
+  	display:block;
+  	margin:auto;
+ 	width:800px;
+ 	height:auto;
+}
+
+.first-row-container {
+	
+}
+
+.column-name-textbox {
+	background-color:none;
+	width:100%;
+	height:auto;
+	margin-top:15px;
+	margin-bottom:30px;
+	padding:auto;
+	border:none;
+	font-size:120%;
+	font-weight:bold;
+	text-align:center;
+}
+
+.selectbox-column {
+	
+}
+
+.selectbox-asc-desc {
+	
+}
+
+.flexbox-parent-container {
+	background-color:none;
+	width:70%;
+	height:auto;
+	margin:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+}
+
+.auction-box-parent {
+	background-color:none;
+	width:15%;
+	min-width:250px;
+	min-height:50px;
+	border:4px;
+	border-style: solid;
+	margin:auto;
+	margin-bottom:50px;
+	margin-left:20px;
+	margin-right:auto;
+}
+
+.auction-box-parent img {
+	background-color: black;
+	display:block;
+	width:100%;
+	height:auto;
+	margin-left:auto;
+	margin-left:auto;
+}
+
+.auction-box-text-child {
+	background-color: none;
+	width:100%;
+	height:auto;
+	text-align:center;
+	font-family: Ebrima;
+	font-size:90%;
+	font-weight:normal;
+	padding-top:20px;
+	padding-bottom:5px;
+	padding-right:10px;
+}
+
+.auction-box-text-child a {
+	color: black;
+	text-decoration:none;
+}
+
+.auction-box-text-child a:hover {
+	color: white;
+	text-decoration:underline;
+	text-decoration-color:black;
+}
+
+.auction-box-text-child li, ul {
+	list-style-type:none;
+	text-align:left;
+}
+
+/*
+li:first-of-type {
+	padding-bottom:25px;
+	}
+*/
+
+.no-space-hyperlink a {
+	visibility: hidden;
+	width:none;
+	height:none;
+}
+
+/* CSS @media only screen queries */
+@media only screen and (max-width: 800px) {
+	
+	.flexbox-parent-container {
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+		justify-content:space-between:
+	}
+	
+	.auction-box-parent {
+		width:10%;
+		min-width:150px;
+		margin-top:5px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.auction-box-text-child {
+		font-size:80%;
+	}
+	
+	
+}
