@@ -1,0 +1,145 @@
+html {
+    background-color: #383838;
+    color: white;
+}
+p {
+    font-family: Rockwell, "Times New Roman", sans-serif;
+}
+a{
+    color: white;
+}
+.login{
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/* .followus{
+    float:right;
+    display: block;
+    border: 5px white solid;
+    width: 24%;
+}
+.homepage{
+    display: inline-block;
+}   */
+.welkomtekst {
+    font-family: Rockwell, "Times New Roman", sans-serif;
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    height: 150%;
+}
+.header li{
+    float: left;
+}
+.header li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header li:hover{
+    background: #383838;
+}
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.header {
+    font-size: 20pt;
+}
+.movie-list img{
+    transition: 0.5s;
+    margin: 15px 15px;
+}
+.movie-list img:hover{
+    transform: scale(1.2);
+}
+.copyright {
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.top{
+    background-color: red;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.sub{
+    display: block;
+    transform: translateX(45%);
+    padding-bottom: 40px;
+}
+table {
+    border: 1px white solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    border: 1px white solid;
+    padding: 5px;
+}
+video {
+    padding-top: 50px;
+}
+.poster{
+    float: right;
+}
+.dropdown-content{
+    background-color: #404040;
+    display: none;
+    position: absolute;
+    min-width: 181.6px;
+}
+.dropdown-content a:hover {
+    background-color: #383838;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+body.taken{
+    margin: 0;
+    background: #000;
+}
+video.taken{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+.about{
+    width: 640px;
+    height: 640px;
+}
+.register{
+    display: block;
+    transform: translateX(45%);
+    padding-bottom: 40px;
+}
+.LoginScherm{
+    display: block;
+    transform: translateX(45%);
+    padding-bottom: 40px;
+}
+.guestbook {
+    width: 20%;
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+}
