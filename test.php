@@ -8,7 +8,7 @@
  * -php naar boven gehaald
  *
  */
-require_once 'requires/header.php';
+//require_once 'requires/header.php';
 
 ?>
 <!DOCTYPE html>
@@ -28,8 +28,8 @@ require_once 'requires/header.php';
  * Time: 11:22
  */
 /* De onderstaande code is van Gijs.*/
-$email = "gijs"//str_rot13($_POST['mail_adres']);
-$to      = "gijs@gijsvermeulen.com"// $_POST['mail_adres'];// Send email to our user
+$email = "gijs";//str_rot13($_POST['mail_adres']);
+$to      = "me@example.com";// $_POST['mail_adres'];// Send email to our user
 $subject = 'Vertificatie'; // Give the email a subject
 $message = '
 
@@ -42,7 +42,7 @@ http://iproject42.icasites.nl/verificatie.php?verificatie=1&email='. $email .'';
 
 $headers = 'From:noreply@gijsvermeulen' . "\r\n"; // Set from headers
 mail($to, $subject, $message, $headers); // Send our email
-header('location:index.php');
+echo "gelukt";
 
 
 
